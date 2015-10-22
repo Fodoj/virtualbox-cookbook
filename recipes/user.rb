@@ -20,9 +20,9 @@
 # For the user to be created successfully, a data bag item with the MD5 hashed password
 # needs to be added.
 
-include_recipe "apt"
+#include_recipe "apt"
 
-package "build-essential"
+#package "build-essential"
 gem_package "ruby-shadow"
 
 user 'virtualbox-user' do
